@@ -1,0 +1,38 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+app_lucky_number:
+  path: /lucky/number
+  controller: App\Controller\LuckyController::number
+
+#pour lister les membres dans la database
+app_membres:
+  path: /membres
+  controller: App\Controller\MembresController::listeMembres
+
+#pour avoir l'id du membre qu'on veut 
+app_membre_id:
+  path: /membre/id/{id}
+  controller: App\Controller\InfosMembreController::infosMembreParId
+
+#pour avoir le mail du membre qu'on veut (il est conseillé de ne pas mettre l'adresse mail dans la barre de recherche car le @ crée des confusions)
+app_membre_mail:
+  path: /membre/mail/{mail}
+  controller: App\Controller\InfosMembreController::infosMembresParMail
+  
+#pour avoir le prenom du membre qu'on veut 
+app_membre_prenom:
+  path: /membre/prenom/{prenom}
+  controller: App\Controller\InfosMembreController::infosMembresParPrenom
+
+#pour l'ajout d'un membre dans le base de données 
+app_membre:
+  path: /membre
+  controller: App\Controller\NouveauMembreController::nouveauMembre
+
+#pour l'ajout de la nouvelle route qui fait que dans un controller on a 2 templace (l'ajout du membre et son affichage sur la méme page )
+app_membre_bis:
+  path: /membrebis
+  controller: App\Controller\NouveauMembreEtAffichageMembresController::nouveauMembre 
+
+
