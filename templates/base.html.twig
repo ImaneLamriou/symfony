@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+
+        <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css"> 
+
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('styles/base.css')}}"> 
+        {% endblock %}
+
+    </head>
+    <body div class="body">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+                <a class="navbar-brand" href="/">Li's Beauty</a>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            
+                            <a class="nav-link" href="/listerProduits">Produits
+                            <span class="sr-only">(current)</span>
+                            </a>   
+                        </li>
+                        {% if not app.user %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="/inscription">Inscription</a> 
+                        </li>
+                        {% endif %}
+                         {% if not app.user %}
+                         <li class="nav-item">
+                            <a class="nav-link" href="/connexion">Connexion</a> 
+                        </li> 
+                        {% else %}
+                        <li class="nav-item">
+                            <a class="nav-link" href="/deconnexion">Deconnexion</a> 
+                        </li>
+                        {% endif %}
+                         <li class="nav-item">
+                            <a class="nav-link" href="/panier" >Panier</a> 
+                        </li>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+               
+        </nav>
+        </div>
+
+        <div class="container">
+        {% block body %}{% endblock %}
+        </div>
+        
+        
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

@@ -1,0 +1,23 @@
+{% extends 'base.html.twig'%}
+
+{% block title %}Inscription{% endblock %}
+
+{% block body %} 
+<div class="card bg-light mb-3 mt-5" style="width: 800px">
+    <div class="card-body">
+        <div class="card-header mb-3">Inscription</div>
+            {{ form_start(form) }}
+            {{ form_row(form.email, { 'attr' : { 'placeholder': 'Adresseemail...' }} ) }}
+            {{ form_row(form.username, {'label' :'Nom d\'utilisateur','attr':{ 'placeholder':'Nom d\'utilisateur...'} } )}}
+            {{ form_row(form.password, {'label' :'Mot de passe','attr':{ 'placeholder':'Mot de passe...'} } )}}
+            {{ form_row(form.confirm_password, {'label': 'Répétez votre mot de passe','attr':{'placeholder':'Répétez votre mot de passe...'}})}}
+
+             <button type="submit" class="btn btn-primary">
+                <i class="fa fa-btn fa-user"></i> Inscription
+              </button>
+            {{ form_end(form) }}
+        </div>
+    </div>
+</div>
+{% endblock %}
+ 
