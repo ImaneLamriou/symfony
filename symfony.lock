@@ -117,9 +117,12 @@
             "public/.htaccess"
         ]
     },
+<<<<<<< HEAD
     "symfony/asset": {
         "version": "v5.1.9"
     },
+=======
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb
     "symfony/cache": {
         "version": "v5.1.8"
     },
@@ -271,6 +274,7 @@
             "config/routes.yaml"
         ]
     },
+<<<<<<< HEAD
     "symfony/security-bundle": {
         "version": "5.1",
         "recipe": {
@@ -295,6 +299,8 @@
     "symfony/security-http": {
         "version": "v5.1.9"
     },
+=======
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb
     "symfony/service-contracts": {
         "version": "v2.2.0"
     },
@@ -324,6 +330,7 @@
             "templates/base.html.twig"
         ]
     },
+<<<<<<< HEAD
     "symfony/validator": {
         "version": "4.3",
         "recipe": {
@@ -337,6 +344,8 @@
             "config/packages/validator.yaml"
         ]
     },
+=======
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb
     "symfony/var-dumper": {
         "version": "v5.1.8"
     },

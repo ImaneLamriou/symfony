@@ -25,6 +25,7 @@ services:
     # as action arguments even if you don't extend any base controller class
     App\Controller\:
         resource: '../src/Controller/'
+<<<<<<< HEAD
         public: true
         tags: ['controller.service_arguments']
         
@@ -33,3 +34,9 @@ services:
     # please note that last definitions always *replace* previous ones
     
   
+=======
+        tags: ['controller.service_arguments']
+
+    # add more service definitions when explicit configuration is needed
+    # please note that last definitions always *replace* previous ones
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb

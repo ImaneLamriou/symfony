@@ -35,6 +35,7 @@ app_membre_bis:
   path: /membrebis
   controller: App\Controller\NouveauMembreEtAffichageMembresController::nouveauMembre 
 
+<<<<<<< HEAD
 app_produit:
   path: /listerProduits
   controller: App\Controller\AfficheProduit::listerProduits
@@ -46,4 +47,6 @@ app_produit:
 
 
 
+=======
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb
 

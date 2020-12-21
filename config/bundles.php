@@ -7,5 +7,8 @@ return [
     Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle::class => ['all' => true],
     Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],
     Symfony\Bundle\TwigBundle\TwigBundle::class => ['all' => true],
+<<<<<<< HEAD
     Symfony\Bundle\SecurityBundle\SecurityBundle::class => ['all' => true],
+=======
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb
 ];

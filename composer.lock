@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "364830e460c27e5fa5aad5d5ac5640cd",
+=======
+    "content-hash": "f9f0b657a52e12e5c954f3de43402a64",
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -1926,6 +1930,7 @@
             "time": "2017-12-12T01:46:35+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/asset",
             "version": "v5.1.9",
             "source": {
@@ -1995,6 +2000,8 @@
             "time": "2020-10-24T12:01:57+00:00"
         },
         {
+=======
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb
             "name": "symfony/cache",
             "version": "v5.1.8",
             "source": {
@@ -4506,6 +4513,7 @@
             "time": "2020-10-24T12:01:57+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/security-bundle",
             "version": "v5.1.9",
             "source": {
@@ -4909,6 +4917,8 @@
             "time": "2020-10-28T21:33:29+00:00"
         },
         {
+=======
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb
             "name": "symfony/service-contracts",
             "version": "v2.2.0",
             "source": {
@@ -5412,6 +5422,7 @@
             "time": "2020-10-24T12:01:57+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/validator",
             "version": "v5.1.9",
             "source": {
@@ -5520,6 +5531,8 @@
             "time": "2020-11-28T10:57:20+00:00"
         },
         {
+=======
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb
             "name": "symfony/var-dumper",
             "version": "v5.1.8",
             "source": {

@@ -50,4 +50,12 @@ class Membres
      * @ORM\Column(name="prenom", type="string", length=20, nullable=false)
      */
     public $prenom;
+<<<<<<< HEAD
 }
+=======
+
+    public function getPrenom() { return $this->prenom; }
+
+
+}
+>>>>>>> 1f7004b2a1d4e1540bbf99dfd422d0ee934a77eb
